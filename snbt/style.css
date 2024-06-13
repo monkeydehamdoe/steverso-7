@@ -1,0 +1,16 @@
+body {
+  font-family: 'Patrick Hand';
+}
+
+.kepala {
+  background-image: url(../stev.jpeg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 1200px) {
+  .kepala {
+    background-position: 0 -440px;
+  }
+}
